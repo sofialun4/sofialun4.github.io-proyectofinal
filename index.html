@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.w3schools.com/images/favicon.ico">
+    <title>Desarrollo Web</title>
+</head>
+
+<body>
+    <header>
+        <div class="contenido">
+
+            <nav class="menu">
+                <ul class="links">
+                    <li><a class="link" href="#sobremi" class="active">Perfil</a></li>
+                    <li><a class="link" href="#skills">Skills</a></li>
+                    <li><a class="link" href="#experiencia">Experiencia</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+<!-- Seccion Sobre Mi -->
+<section id="sobremi">
+    <div class="contenedor-foto">
+        <img src="imagenes/foto-cv.jpg" alt="Mí foto">
+    </div>
+    <div class="sobremi">
+        <!-- <h3 class="titulo-seccion">Sobre Mí</h3> -->
+        <h1>Sofia Mendez </h1>
+        <hr>
+        <h4>Desarrollador Web Front End </h4>
+        <p class="descripcion">
+            ¡Hola! Soy Sofía 👋🏻 Programadora Junior Full Stack y actualmente cursando la tecnicatura en Desarrollo de Software.
+
+        </p>
+
+        <!-- Button Ves mas -->
+        <button class="btn-verMas">Ver más</button>
+
+        <div class="parrafoOcultar">
+            <p class="descripcion">
+                Me mantengo en constante crecimiento personal y
+profesional. Aprendiendo nuevas tecnologías aplicando
+cada uno de mis conocimientos.
+            </p>
+
+            <p class="descripcion">
+                Soy una persona optimista, dinámica y servicial, con gran
+                manejo de relaciones interpersonales y valorando el
+                trabajo en equipo.
+                
+        </div>
+
+
+        <button class="btn-mostrarDatos">Mostrar Datos</button>
+
+        <div class="info-personal">
+            <ul>
+                <!-- mostrar cada li con un icono -->
+                <li><i class="fa-solid fa-location-dot"></i> -  Castelar </li>
+                <li><i class="fa-solid fa-street-view"></i> Rondeau 2358 -  Castelar Buenos Aires</li>
+                <li><i class="fa-solid fa-cake-candles"></i> - 24 / 01 / 1998 </li>
+                <li><i class="fa-solid fa-phone"></i> - 55 12595 18484</li>
+                <li><i class="fa-solid fa-envelope"></i> - sof.mendez@example.com </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+       
+    </section>
+
+    <!-- Seccion Skills -->
+    <section id="skills" class="contenedor-skills">
+        <h3 class="titulo-seccion">Skills</h3>
+
+        <div class="lista-skills">
+            <ul>
+                <li>
+                    ✓ HTML
+                </li>
+                <li>
+                    ✓  CSS
+                </li>
+                <li>
+                    ✓ QLICKSENSE
+                </li>
+                <li>
+                    ✓ JAVASCRIPT
+                </li>
+                <li>
+                    ✓ NODEJS 
+                </li>
+                <li>
+                    ✓ SAP 
+                </li>
+                <li>
+                    ✓ SQL 
+                </li>
+                <li>
+                    ✓  ODOO
+                </li>
+               
+            </ul>
+
+    </section>
+
+    <!-- Seccion Experiencia -->
+    <section id="experiencia">
+        <h3 class="titulo-seccion">Experiencia</h3>
+
+        <!-- crea una lista desordenada con una lista ordenada dentro -->
+
+        <ul class="lista-experiencia">
+            <li>
+                <p class="descripcion">
+                    A lo largo de mi experiencia me he desempeñado en las siguientes areas:
+                </p>
+
+                <ol class="subListaOL">
+                    <li>
+                        <div class="proyecto">
+                                <h4>Community Manager </h4>
+                            </a>
+
+                            <button class="btn-descProyect">Ver Descripción</button>
+
+                            <div class="info-oculta">
+                                  <p>  • Manejo de la tienda online y Redes Sociales: Email Marketing, Facebook, Instagram, Whatsapp Business, Mercadolibre, LinkedIn, Tik Tok, YouTube, entre otras</p>
+                                <p> INSTAGRAM  | TICK TOK | FACEBOOK | CANVA </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="proyecto">
+                        
+                                <h4>Respresentate de Operaciones Comerciales </h4>
+                            </a>
+                            
+                            <button class="btn-descProyect">Ver Descripción</button>
+
+                            <div class="info-oculta">
+                                <p>•Seguimiento de facturación por cada cliente, facturacion mediante Salesforce. </p>
+                                <p>SALESFORCE | EXCEL | EMAIL </p>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="proyecto">
+                                <h4>Analista contable Gestion SUR </h4>
+                            </a>
+
+                            <button class="btn-descProyect">Ver Descripcion</button>
+
+                            <div class="info-oculta">
+                                <p>•Recibir la documentación administrativa SUR (Sistema Único de Reintegro): pedidos médicos, historia clínica, solicitud de tratamientos, y distribuirla según tipo de prestación.</p>
+                                <p>SAP  | MYTEAMS | QLICKSENSE| TANGO </p>
+                            </div>
+                        </div>
+                    </li>
+                </ol>
+            </li>
+            
+        </ul>
+        
+    </section>
+
+
+    <!-- Seccion Footer -->
+    <footer>
+        <!-- redes Sociales -->
+        <div class="socials">
+            <a href="https://www.facebook.com/Sofyalunaaa" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/domythangg" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sofiadev/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/sofialun4" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+
+    <p id="demo">JavaScript can change HTML content.</p>
+    
+    <script src="JS/app.js"></script>
+
+</body>
+
+
+</html>
