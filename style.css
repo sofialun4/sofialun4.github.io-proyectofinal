@@ -1,0 +1,512 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+html {
+    scroll-behavior: auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+}
+
+
+
+body{
+    background-attachment: fixed;
+    background: linear-gradient(to top, #000000, #434343);
+}
+
+
+
+header{
+    background: rgba(0,0,0,0.8);
+    position: fixed;
+    padding: 10px 0;
+    width: 100%;
+    z-index: 999;
+}
+
+
+
+header .contenido {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px
+}
+
+
+
+header .menu ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+
+header .menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    font-weight: 400;
+}
+
+
+
+header .menu ul li a:hover {
+    color: #f10f0f;
+}
+
+
+
+header .menu ul li a.active {
+    color: #f10f0f;
+}
+
+
+
+
+header .contenido .socials a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+
+
+header .contenido .socials a:hover {
+    color: #f10f0f;
+}
+
+
+
+
+
+
+img {
+    width: 80px;
+    height: auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+
+
+.icono-nav {
+    display: none;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+
+
+
+                                                /** Sobre Mi ----  Perfil  */
+
+
+
+
+#sobremi {
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px 15px;
+    color: aliceblue;
+    display: flex;
+}
+
+
+
+
+#sobremi .contenedor-foto {
+    max-width: 400px;
+    margin-right: 80px;
+}
+
+
+
+
+#sobremi .contenedor-foto img {
+    padding: 20px;
+    width: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    background: linear-gradient(to right, #0e0e0f, #2f2f2f);
+}
+
+
+
+#sobremi .sobremi {
+    margin: 0 40px;
+}
+
+
+
+
+#sobremi .sobremi h1 {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+
+
+#sobremi .sobremi h4 {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #f10f0f;
+}
+
+
+
+
+
+
+.descripcion {
+    font-size: 18px;
+    line-height: 25px;
+    color: aliceblue;
+    margin: 30px 0;
+}
+
+
+
+
+#sobremi .sobremi button {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    font-weight: 400;
+    padding: 10px 15px;
+    border: 1px solid #f10f0f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #f10f0f;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+#sobremi .sobremi button:hover {
+    background: transparent;
+    color: #f10f0f;
+    border: 1px solid #f10f0f;
+}
+
+
+
+.parrafoOcultar {
+    display: none;
+}
+
+
+.info-personal {
+    display: none;
+    margin: 20px 0;
+}
+
+
+.mostrar {
+    display: block;
+}
+
+
+
+
+
+#sobremi .sobremi .info-personal ul li {
+    list-style: none;
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: aliceblue;
+}
+
+     /** Seccion Certificaciones */
+
+     
+#certificaciones  {
+    max-width: 1200px;
+    margin: auto;
+    padding: 150px 15px;
+    color: aliceblue;
+    display: flex;
+}
+
+#certificaciones  .titulo-seccion {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: #f10f0f;
+    -moz-text-decoration-color: #f10f0f;
+    text-decoration-thickness: 3px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+
+ 
+
+
+
+
+
+
+                                                /** Seccion Skills */
+
+.contenedor-skills {
+    padding: 150px 15px;
+    text-align: center;
+}
+
+
+
+#skills .titulo-seccion {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: #f10f0f;
+    -moz-text-decoration-color: #f10f0f;
+    text-decoration-thickness: 3px;
+    letter-spacing: 2px;
+    padding: 20px 0;
+}
+
+
+
+.contenedor-skills {
+    margin: 30px auto;
+}
+
+
+
+.contenedor-skills .lista-skills ul li {
+        list-style: none;
+        font-size: 20px;
+        margin-bottom: 10px;
+        color: aliceblue;
+        padding: 20px 0;
+}
+
+
+
+.contenedor-skills .lista-skills ul li i {
+    margin-right: 10px;
+    color: #f10f0f;
+    font-size: 25px;
+}
+
+
+
+                /** Seccion certificaciones */ 
+
+
+
+
+                                                    /**  Seccion Experiencia  */
+
+#experiencia {
+    padding: 150px 15px;
+}
+
+
+#experiencia .titulo-seccion {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-decoration: underline;
+    text-decoration-color: #f10f0f;
+    -moz-text-decoration-color: #f10f0f;
+    text-decoration-thickness: 3px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+
+
+#experiencia .lista-experiencia {
+    max-width: 1200px;
+    padding: 50px 0;
+    margin: auto;
+    text-align: left;
+}
+
+
+
+#experiencia .lista-experiencia li {
+    margin-bottom: 10px;
+    color: #f10f0f;
+}
+
+
+
+#experiencia .lista-experiencia li .subListaOL {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    max-height: 200px;
+    border: 2px solid;
+    border-image: linear-gradient(to right, #000000, #bbbbbb) 1;
+    padding: 20px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto button {
+    display: block;
+    text-decoration: none;
+    font-size: 11px;
+    transition: all 0.3s ease;
+    padding: 5px 10px;
+    border: 1px solid #f10f0f;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background: #f10f0f;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto button:hover {
+    background: transparent;
+    color: #f10f0f;
+    border: 1px solid #f10f0f;
+}
+
+
+.info-oculta {
+    display: none;
+}
+
+
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto .info-proyecto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#experiencia .lista-experiencia li .subListaOL .proyecto .info-proyecto p{
+    text-align: center;
+    color: #a2a2a2;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+                                                /**  Seccion Footer  */
+
+
+footer {
+    background: rgba(0,0,0,0.8);;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px 0;
+    margin: 5px;
+    font-size: 22px;
+    border-top: #f10f0f 1px solid;
+}
+
+
+footer p {
+    padding: 10px 0;
+}
+
+
+
+footer .socials a{
+    text-decoration: none;
+    color: aliceblue;
+    display: inline-block;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+    font-size: 25px;
+}
+
+
+
+footer .socials a:hover {
+    color: #f10f0f;
+}
+
+
